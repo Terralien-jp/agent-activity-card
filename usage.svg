@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 852 280" width="852" height="280" role="img" aria-labelledby="heading description">
+  <title id="heading">Agent activity · SAMPLE DATA</title>
+  <desc id="description">Claude Code, 124,580 tokens, 8 conversations, 12 requests. Codex, 87,340 tokens, 6 conversations, 10 requests. Antigravity, 61,720 tokens, 5 conversations, 7 requests.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #f0f6ef; }
+    .secondary { fill: #b4c8bc; font-size: 12px; }
+    .value { font-size: 13px; font-weight: 650; text-anchor: end; }
+    .badge { fill: #d5e6da; text-anchor: middle; font-size: 10px; font-weight: 650; letter-spacing: 1px; }
+  </style>
+  <rect width="852" height="280" rx="16" fill="#111d18"/>
+  <text x="24" y="48" font-size="28" font-weight="700">Agent activity</text>
+  <rect x="684" y="28" width="144" height="26" rx="13" fill="#304639"/>
+  <text x="756" y="45" class="badge">SAMPLE DATA</text>
+  <g transform="translate(24, 84)">
+  <rect width="260" height="173" rx="12" fill="#1a2923" stroke="#31463c"/>
+  <circle cx="16" cy="24" r="4" fill="#efa67d"/>
+  <text x="28" y="29" font-size="15" font-weight="650">Claude Code</text>
+  <text x="13" y="70" font-size="33" font-weight="700">124.6K</text>
+  <text x="15" y="91" class="secondary">Input + output tokens</text>
+  <rect x="13" y="103" width="234" height="4" rx="2" fill="#344c40"/>
+  <rect x="13" y="103" width="234" height="4" rx="2" fill="#efa67d"/>
+  <text x="15" y="130" class="secondary">Conversations</text>
+  <text x="245" y="130" class="value">8</text>
+  <text x="15" y="153" class="secondary">Requests · successful</text>
+  <text x="245" y="153" class="value">12 · 11</text>
+</g>
+<g transform="translate(296, 84)">
+  <rect width="260" height="173" rx="12" fill="#1a2923" stroke="#31463c"/>
+  <circle cx="16" cy="24" r="4" fill="#8ad9ae"/>
+  <text x="28" y="29" font-size="15" font-weight="650">Codex</text>
+  <text x="13" y="70" font-size="33" font-weight="700">87.3K</text>
+  <text x="15" y="91" class="secondary">Input + output tokens</text>
+  <rect x="13" y="103" width="234" height="4" rx="2" fill="#344c40"/>
+  <rect x="13" y="103" width="164" height="4" rx="2" fill="#8ad9ae"/>
+  <text x="15" y="130" class="secondary">Conversations</text>
+  <text x="245" y="130" class="value">6</text>
+  <text x="15" y="153" class="secondary">Requests · successful</text>
+  <text x="245" y="153" class="value">10 · 9</text>
+</g>
+<g transform="translate(568, 84)">
+  <rect width="260" height="173" rx="12" fill="#1a2923" stroke="#31463c"/>
+  <circle cx="16" cy="24" r="4" fill="#b9a7fc"/>
+  <text x="28" y="29" font-size="15" font-weight="650">Antigravity</text>
+  <text x="13" y="70" font-size="33" font-weight="700">61.7K</text>
+  <text x="15" y="91" class="secondary">Input + output tokens</text>
+  <rect x="13" y="103" width="234" height="4" rx="2" fill="#344c40"/>
+  <rect x="13" y="103" width="116" height="4" rx="2" fill="#b9a7fc"/>
+  <text x="15" y="130" class="secondary">Conversations</text>
+  <text x="245" y="130" class="value">5</text>
+  <text x="15" y="153" class="secondary">Requests · successful</text>
+  <text x="245" y="153" class="value">7 · 7</text>
+</g>
+</svg>

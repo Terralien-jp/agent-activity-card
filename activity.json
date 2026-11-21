@@ -1,0 +1,8 @@
+{
+  "sample": true,
+  "agents": [
+    { "name": "Claude Code", "tokens": 124580, "conversations": 8, "requests": 12, "success": 11 },
+    { "name": "Codex", "tokens": 87340, "conversations": 6, "requests": 10, "success": 9 },
+    { "name": "Antigravity", "tokens": 61720, "conversations": 5, "requests": 7, "success": 7 }
+  ]
+}
