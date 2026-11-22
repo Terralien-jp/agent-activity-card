@@ -1,18 +1,41 @@
 # Agent Activity Card
 
-Copy this Markdown table into your GitHub profile or project README and replace the sample totals with your own. You can edit it directly on GitHub.
+## Agent activity · Sample data
+
+| Agent | Tokens | Conversations | Successful / Requests |
+| --- | ---: | ---: | ---: |
+| 🟠 Claude Code | **124,580** `████████` | 8 | 11 / 12 (92%) |
+| 🟢 Codex | **87,340** `██████░░` | 6 | 9 / 10 (90%) |
+| 🟣 Antigravity | **61,720** `████░░░░` | 5 | 7 / 7 (100%) |
+
+The bars compare token totals against the largest measured value in the table.
+
+## Use this Markdown table
+
+Copy the table into your GitHub profile or project README and replace the sample values. Use the same reporting period and token-counting convention for every agent. Use `—` for an unmeasured token total.
+
+<details>
+<summary>Copy the Markdown</summary>
 
 ```markdown
-| Agent | Tokens in the last 7 days |
-| --- | ---: |
-| Claude Code | 124,580 |
-| Codex | 87,340 |
-| Antigravity | 61,720 |
+## Agent activity · Sample data
+
+| Agent | Tokens | Conversations | Successful / Requests |
+| --- | ---: | ---: | ---: |
+| 🟠 Claude Code | **124,580** `████████` | 8 | 11 / 12 (92%) |
+| 🟢 Codex | **87,340** `██████░░` | 6 | 9 / 10 (90%) |
+| 🟣 Antigravity | **61,720** `████░░░░` | 5 | 7 / 7 (100%) |
 ```
 
-Use the same time range and token-counting convention for every agent. Use `—` when a total is unavailable.
+</details>
 
-日本語では、上の表をREADMEに貼り、サンプルの数字を自分の集計値に差し替えるだけです。
+To generate the table from your aggregates, edit `activity.json`, set `sample` to `false`, and run this command with Python 3. Copy the output into your README.
+
+```sh
+python3 render_markdown.py
+```
+
+日本語では、表をコピーして数字を差し替えるか、自分の `activity.json` からPythonで表を生成できます。
 
 ## Optional SVG card
 
